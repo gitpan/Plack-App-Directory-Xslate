@@ -1,0 +1,31 @@
+---
+abstract: 'Serve static files and Text::Xslate template files from document root with directory index'
+author:
+  - 'Kenta Sato <karupa@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Plack-App-Directory-Xslate
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  Encode: 0
+  Plack::App::Directory: 0
+  Plack::Util::Accessor: 0
+  Text::Xslate: 0
+  parent: 0
+resources:
+  homepage: http://github.com/karupanerura/p5-Plack-App-Directory-Xslate/tree
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/karupanerura/p5-Plack-App-Directory-Xslate.git
+version: 0.03

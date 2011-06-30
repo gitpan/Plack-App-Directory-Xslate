@@ -5,7 +5,11 @@ readme_from 'lib/Plack/App/Directory/Xslate.pm';
 readme_pod_from 'lib/Plack/App/Directory/Xslate.pm';
 githubmeta;
 
-# requires '';
+requires 'parent';
+requires 'Encode';
+requires 'Text::Xslate';
+requires 'Plack::App::Directory';
+requires 'Plack::Util::Accessor';
 
 tests 't/*.t';
 author_tests 'xt';
