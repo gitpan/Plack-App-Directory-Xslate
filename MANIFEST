@@ -1,5 +1,6 @@
 .gitignore
 Changes
+inc/HTTP/Request.pm
 inc/Module/Install.pm
 inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
@@ -14,6 +15,7 @@ inc/Module/Install/ReadmePodFromPod.pm
 inc/Module/Install/Repository.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
+inc/Plack/Test.pm
 inc/Test/More.pm
 lib/Plack/App/Directory/Xslate.pm
 Makefile.PL
@@ -22,6 +24,9 @@ META.yml
 README
 README.pod
 t/00_compile.t
+t/01_basic.t
+t/htdocs/test.tx
+t/htdocs/test.txt
 xt/01_podspell.t
 xt/02_perlcritic.t
 xt/03_pod.t
