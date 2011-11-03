@@ -3,11 +3,12 @@ abstract: ~
 author:
   - 'Kenta Sato <karupa@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.36
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.36
 distribution_type: module
-generated_by: 'Module::Install version 1.01'
+dynamic_config: 1
+generated_by: 'Module::Install version 1.04'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,6 +21,7 @@ no_index:
     - xt
 requires:
   Encode: 0
+  Plack: 0
   Plack::App::Directory: 0
   Plack::Util: 0
   Plack::Util::Accessor: 0
@@ -29,4 +31,4 @@ resources:
   homepage: https://github.com/karupanerura/p5-Plack-App-Directory-Xslate/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/karupanerura/p5-Plack-App-Directory-Xslate.git
-version: 0.05
+version: 0.06
